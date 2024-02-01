@@ -9,7 +9,8 @@ ___
 > Waybar has tooltips for a calendar and a module for power and vpn connections
 
 ___
-![main]
+
+![main][1]
 
 ### Quick keys to get started in hyprland
 
@@ -78,4 +79,34 @@ __
 
 ___
 
-[main]:(./screenshots/2024-02-01-190139_hyprshot.png)
+![wallpaper][2]
+
+___
+
+![screen1][3]
+
+___
+
+![screen2][4]
+
+___
+
+![screen3][5]
+
+___
+
+![screen4][6]
+
+___
+
+![screen5][7]
+
+___
+
+[1]: /screenshots/2024-02-01-190139_hyprshot.png
+[2]: /screenshots/2024-02-01-185921_hyprshot.png
+[3]: /screenshots/2024-02-01-185655_hyprshot.png
+[4]: /screenshots/2024-02-01-185710_hyprshot.png
+[5]: /screenshots/2024-02-01-185730_hyprshot.png
+[6]: /screenshots/2024-02-01-185754_hyprshot.png
+[7]: /screenshots/2024-02-01-185857_hyprshot.png
