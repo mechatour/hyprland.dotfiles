@@ -1,5 +1,4 @@
 ## These dotfiles are for Hyprland
-
 ___
 
 ## This theme is all about the Dracula theming with the Dracula purple used for borders.
@@ -10,6 +9,7 @@ ___
 > Waybar has tooltips for a calendar and a module for power and vpn connections
 
 ___
+![main]
 
 ### Quick keys to get started in hyprland
 
@@ -29,7 +29,7 @@ Check out the shortcuts in hyprland.conf for the rest.
 
 __
 
-## Configs included
+### Configs included
 
 - Hyprland
 - Emacs
@@ -44,7 +44,7 @@ __
 - Starship
 - qt5ct
 
-## Programs referenced by Hyprland config
+### Programs referenced by Hyprland config
 
 - Emacs
 - Waybar
@@ -66,7 +66,7 @@ __
 - polkit-kde-authentication-agent-1
 - KDE Connect
 
-# Programs referenced by Waybar
+### Programs referenced by Waybar
 
 - qasmixer
 
@@ -77,3 +77,5 @@ __
 - Window rules for Reaper DAW
 
 ___
+
+[main]:(./screenshots/2024-02-01-190139_hyprshot.png)
