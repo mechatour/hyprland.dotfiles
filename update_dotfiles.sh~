@@ -1,0 +1,26 @@
+#!/bin/bash
+#
+# Script to copy dotfiles to git directories
+#
+
+cp -p /etc/dunst/dunstrc dunst/etc/dunst/
+
+cp -rp /home/zane/.config/hypr/* hyprland/.config/hypr/
+
+cp -rp /home/zane/.config/kitty/* kitty/.config/kitty/
+
+cp -rp /home/zane/.config/neofetch/* neofetch/.config/neofetch/
+
+cp -rp /home/zane/.oh-my-bash/* ohmybash/.oh-my-bash/
+
+cp -rp /home/zane/.config/rofi/* rofi/.config/rofi/
+cp -p /usr/share/rofi/themes/teal-is-real.rasi rofi/usr/share/rofi/themes/
+
+#Still working on this
+#cp -rp /usr/share/sddm/themes/jackdaw sddm/usr/share/sddm/themes/
+
+cp -rp /home/zane/.config/waybar/* waybar/.config/waybar/
+
+cp -rp /home/zane/.config/swaylock/* swaylock/.config/swaylock/
+
+cp -p /home/zane/.bashrc ./

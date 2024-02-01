@@ -1,0 +1,65 @@
+# 
+
+## These dotfiles are for hyprland specifically
+___
+
+> Some programs mentioned may need manual compilation.
+> The hyprland config is geared around KDE Plasma being installed as a base
+> This setup is for dual screens which are named DP-1 (left) and HDMI-A-1 (right) - these can be changed in the hyprland.conf
+
+This theme is all about the Dracula theming with the Dracula purple used for borders.
+___
+
+### Quick keys to get going in hyprland
+
+- Super+Q for Alacritty
+- Super+W for Firefox
+- Super+R for rofi run menu
+- Mouse+Left Click to drag window
+- Mouse+Right Click to resize window
+- Super+Mouse Wheel Cycle through workspaces
+
+Check out the shortcuts in hyprland.conf for the rest.
+
+__
+
+## Things used for dotfiles:
+- wayland
+- hyprland
+- hyprshot
+- swaylock
+- swaybg
+- waybar
+- rofi
+- dunst
+- wl-paste
+- cliphist
+- starship
+- qt5ct
+- polkit-kde-authentication-agent-1
+- Fixed width font: Hack Nerd Font Mono
+## Programs referenced in hyprland.conf
+- Firefox
+- Thunderbird (flatpak)
+- Kitty
+- Dolphin
+- nm-connection-manager
+___
+## gtk & qt themes are set by using nwg-look & qt5ct
+### nwg-look 
+- Widgets: Layan-Dark
+- Icon Theme: Miya-black-dark
+- Mouse cursor: Sweet-cursors
+### qt5ct
+- Appearance: Fusion, XDG Desktop Portal - Palette: Custom, darker
+- Fonts: General Noto Sans 10 - Fixed width Hack 10
+- Icon Theme: Miya-black-dark
+___
+![Main](https://github.com/mechatour/dotfiles/blob/main/screenshots/main.png?raw=true)
+___
+![Work 1](https://github.com/mechatour/dotfiles/blob/main/screenshots/work.png?raw=true)
+___
+![Work 2](https://github.com/mechatour/dotfiles/blob/main/screenshots/work2.png?raw=true)
+___
+![Work 3](https://github.com/mechatour/dotfiles/blob/main/screenshots/work3.png?raw=true)
+___
