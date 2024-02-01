@@ -1,4 +1,4 @@
-## These dotfiles are for Hyprland
+# These dotfiles are for Hyprland
 ___
 
 ## This theme is all about the Dracula theming with the Dracula purple used for borders.
@@ -28,7 +28,7 @@ ___
 
 Check out the shortcuts in hyprland.conf for the rest.
 
-__
+___
 
 ### Configs included
 
