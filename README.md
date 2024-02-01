@@ -1,11 +1,9 @@
-# These dotfiles are for Hyprland
-___
+# Hyprland dotfiles
 
-## This theme is all about the Dracula theming with the Dracula purple used for borders.
+## This is all about the Dracula theming with the Dracula purple used for borders.
 
-> Some programs mentioned may need manual compilation.
-> The Hyprland config is geared around a KDE Plasma base.
-> This setup is for dual screens which are named DP-1 (left) and HDMI-A-1 (right). > Super + [ Enable just left screen & Super + ] Enable both screens
+> Some programs mentioned may need manual compilation. The Hyprland config is geared around a KDE Plasma base.
+> This setup is for dual screens which are named DP-1 (left) and HDMI-A-1 (right). Super + [ - Enable just left screen & Super + ] - Enable both screens
 > Waybar has tooltips for a calendar and a module for power and vpn connections
 
 ___
