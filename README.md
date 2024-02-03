@@ -4,7 +4,10 @@
 
 > Some programs mentioned may need manual compilation. The Hyprland config is geared around a KDE Plasma base.
 > This setup is for dual screens which are named DP-1 (left) and HDMI-A-1 (right). Super + [ - Enable just left screen & Super + ] - Enable both screens
-> Waybar has tooltips for a calendar and a module for power and vpn connections
+>
+> Waybar is minimalist and has tooltips for a calendar and a module for power and vpn connections
+>
+> The Wallpaper is available in various sizes in the wallpaper directory
 
 ___
 
@@ -77,34 +80,34 @@ ___
 
 ___
 
-![wallpaper][2]
+![tiled][2]
 
 ___
 
-![screen1][3]
+![floating][3]
 
 ___
 
-![screen2][4]
+![popup][4]
 
 ___
 
-![screen3][5]
+![run][5]
 
 ___
 
-![screen4][6]
+![tiled2][6]
 
 ___
 
-![screen5][7]
+![waybar][7]
 
 ___
 
-[1]: /screenshots/2024-02-01-190139_hyprshot.png
-[2]: /screenshots/2024-02-01-185921_hyprshot.png
-[3]: /screenshots/2024-02-01-185655_hyprshot.png
-[4]: /screenshots/2024-02-01-185710_hyprshot.png
-[5]: /screenshots/2024-02-01-185730_hyprshot.png
-[6]: /screenshots/2024-02-01-185754_hyprshot.png
-[7]: /screenshots/2024-02-01-185857_hyprshot.png
+[1]: /screenshots/main.png
+[2]: /screenshots/tiled.png
+[3]: /screenshots/floating.png
+[4]: /screenshots/popup.png
+[5]: /screenshots/run.png
+[6]: /screenshots/tiled2.png
+[7]: /screenshots/waybar.png

@@ -3,7 +3,7 @@ font=Hack Nerd Font
 font-size=20
 indicator-radius=100
 
-image=~/.config/swaylock/tux_dracula_wallpaper_lock.png
+image=~/.config/swaylock/tuxblur.jpg
 
 color=282a36
 inside-color=1F202A

@@ -8,7 +8,7 @@
   )
 
 (add-hook 'calendar-load-hook
-	  (lambda()
+	  (lamda()
 		(calendar-set-date-style 'european))) ; European calendar
 
 (setq inhibit-startup-screen t)   ; go straight to scratch pad
