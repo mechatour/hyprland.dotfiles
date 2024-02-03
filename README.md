@@ -45,6 +45,7 @@ ___
 - Bash
 - Starship
 - qt5ct
+- Pyradio
 
 ### Programs referenced by Hyprland config
 
