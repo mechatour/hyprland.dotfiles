@@ -74,7 +74,7 @@ ___
 - qasmixer
 
 
-## Other references
+### Other references
 
 - Hack Nerd Font Mono
 - Window rules for Reaper DAW
