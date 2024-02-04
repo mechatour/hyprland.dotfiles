@@ -11,5 +11,6 @@
 	  (lambda()
 		(calendar-set-date-style 'european))) ; European calendar
 
-(setq inhibit-startup-screen t)   ; go straight to scratch pad
-(setq calendar-week-start-day 1)  ; Weeks start on a Monday thank-you very much.
+(setq inhibit-startup-screen t)     ; go straight to scratch pad
+(setq calendar-week-start-day 1)    ; Weeks start on a Monday thank-you very much.
+(setq-default indent-tabs-mode nil) ; Tabs - no

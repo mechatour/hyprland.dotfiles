@@ -6,6 +6,7 @@
  '(custom-enabled-themes '(dracula))
  '(custom-safe-themes
    '("603a831e0f2e466480cdc633ba37a0b1ae3c3e9a4e90183833bc4def3421a961" default))
+ '(package-selected-packages '(markdown-mode dracula-theme))
  '(tool-bar-mode nil)
  '(tooltip-mode nil))
 (custom-set-faces
@@ -20,3 +21,7 @@
 ;; General tweaks
 
 (load "~/.config/emacs/settings/general.el")
+
+;; Markdown
+
+(load "~/.config/emacs/settings/markdown.el")
