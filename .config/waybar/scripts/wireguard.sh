@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-# nmcli WireGuard abstraction layer for use with my waybar module and rofi custom menu script
-#
 # requires nmcli on your path
 # install to the same directory as wireguard-rofi.sh
 #

@@ -25,3 +25,7 @@
 ;; Markdown
 
 (load "~/.config/emacs/settings/markdown.el")
+
+;; Backups
+
+(load "~/.config/emacs/settings/backups.el")

@@ -21,7 +21,7 @@ ___
 > Features
 >
 > - Custom script in waybar for enabling/disabling VPNs.
-> - Swayidle will activate, turning off the screens 30 seconds after using the lock **Super+L**. Otherwise swayidle turn off the screens and lock the screen after 30 minutes. There is a grace period of 5 seconds after the screens blank, before swaylock activates. This enables a quick wiggle of the mouse to bring the screens back on without having to enter your password.
+> - Swayidle will activate, turning off the screens 30 seconds after using the lock **Super+L**. Otherwise swayidle will turn off the screens and lock the screen after 30 minutes. There is a grace period of 5 seconds after the screens blank, before swaylock activates. This enables a quick wiggle of the mouse to bring the screens back on without having to enter your password.
 > - Idle inhibitor prevents locking when full screen apps or games are being used.
 > - Custom animations in Hyprland for Workspaces and Window movement.
 > - VPNs are set to not connect automatically on my system. For some reason they would connect before the ethernet was up and cause confusion. Hyprland has a delayed_vpn.sh script which waits a short time before connecting manually
