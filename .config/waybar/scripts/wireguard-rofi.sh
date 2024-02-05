@@ -44,14 +44,14 @@ do
 	fi
 done < <($SCRIPT_DIR/wireguard.sh menu)
 
-if [[ $active -ge 0 ]]
-then
-	echo -en "\0active\x1f0-$active\n"
-fi
-if [[ $urgent -ge 0 ]]
-then
+#if [[ $active -ge 0 ]]
+#then
+#	echo -en "\0active\x1f0-$active\n"
+#fi
+#if [[ $urgent -ge 0 ]]
+#then
 	echo -en "\0urgent\x1f$(($active+1))-$(($active+1+$urgent))\n"
-fi
+#fi
 
 echo "reload"
 echo "quit"

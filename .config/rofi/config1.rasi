@@ -11,9 +11,9 @@ configuration {
     font: "Hack Nerd Font Mono 10";
     foreground: #f8f8f2;
     background-color: #282a36;
-    active-background: #6272a4;
+    active-background: #BD93F9;
     urgent-background: #282a36;
-    urgent-foreground: #6272a4;
+    urgent-foreground: #BD93F9;
     selected-background: @active-background;
     selected-urgent-background: @active-background;
     selected-active-background: @active-background;
