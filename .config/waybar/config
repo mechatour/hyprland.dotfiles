@@ -84,7 +84,7 @@
     "custom/wireguard": {
         "format": "vpn:{}",
         "exec": "~/.config/waybar/scripts/wireguard.sh short",
-        "on-click": "rofi -modi 'WireGuard:~/.config/waybar/scripts/wireguard-rofi.sh' -l 7 -show WireGuard",
+        "on-click": "rofi -modi 'VPN Menu:~/.config/waybar/scripts/wireguard-rofi.sh' -show 'VPN Menu'",
         "interval": 10,
         "return-type": "json"
     },

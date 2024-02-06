@@ -20,7 +20,7 @@ ___
 >
 > Features
 >
-> - Custom script in waybar for enabling/disabling VPNs.
+> - Custom script in waybar for enabling/disabling VPNs. Based on the excellent work by [HaHaLinks](https://github.com/HarHarLinks/wireguard-rofi-waybar)
 > - Swayidle will activate, turning off the screens 30 seconds after using the lock **Super+L**. Otherwise swayidle will turn off the screens and lock the screen after 30 minutes. There is a grace period of 5 seconds after the screens blank, before swaylock activates. This enables a quick wiggle of the mouse to bring the screens back on without having to enter your password.
 > - Idle inhibitor prevents locking when full screen apps or games are being used.
 > - Custom animations in Hyprland for Workspaces and Window movement.

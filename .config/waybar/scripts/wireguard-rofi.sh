@@ -6,20 +6,22 @@
 
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
+echo -en "\0prompt\x1fWireGuard Menu\n"
+
 if [[ $# != 0 ]]
 then
-	if [[ "$@" == "quit" ]]
-	then
-		exit 0
-	elif [[ "$1" != "reload" ]]
-	then
-		connection=$(echo $1 | cut -d: -f1)
-		message="$($SCRIPT_DIR/wireguard.sh toggle $connection)"
-		if command -v notify-send >/dev/null 2>&1; then
-			notify-send "wireguard" "$message"
-		fi
-		exit 0
-	fi
+    if [[ "$@" == "quit" ]]
+    then
+        exit 0
+    elif [[ "$1" != "reload" ]]
+    then
+        connection=$(echo $1 | cut -d: -f1)
+        message="$($SCRIPT_DIR/wireguard.sh toggle $connection)"
+        if command -v notify-send >/dev/null 2>&1; then
+            notify-send "wireguard" "$message"
+        fi
+        exit 0
+    fi
 fi
 
 active=-1
@@ -27,31 +29,22 @@ urgent=-1
 
 while read -r state connection IP
 do
-	if [[ "$connection" != *"inactive"* ]]
-	then
-		if [[ "$state" == "connected:" ]]
-		then
-			active=$(($active+1))
-		elif [[ "$state" == "available:" ]]
-		then
-			urgent=$(($urgent+1))
-		fi
-		if [[ "$IP" != "" ]]
-		then
-			connection="$connection [$IP]"
-		fi
-		echo -en "$connection\0icon\x1fwireguard\n"
-	fi
+    if [[ "$connection" != *"inactive"* ]]
+    then
+        if [[ "$state" == "connected:" ]]
+        then
+            active=$(($active+1))
+        elif [[ "$state" == "available:" ]]
+        then
+            urgent=$(($urgent+1))
+        fi
+        if [[ "$IP" != "" ]]
+        then
+            connection="$connection [$IP]"
+        fi
+        echo -en "$connection\0icon\x1fwireguard\n"
+    fi
 done < <($SCRIPT_DIR/wireguard.sh menu)
-
-#if [[ $active -ge 0 ]]
-#then
-#	echo -en "\0active\x1f0-$active\n"
-#fi
-#if [[ $urgent -ge 0 ]]
-#then
-	echo -en "\0urgent\x1f$(($active+1))-$(($active+1+$urgent))\n"
-#fi
 
 echo "reload"
 echo "quit"
