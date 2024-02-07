@@ -1,4 +1,4 @@
-# Hyprland dotfiles
+# Hyprland Dracula (Final)
 
 ## This is all about the Dracula theming with the Dracula purple used for borders.
 
